@@ -18,6 +18,11 @@ export const questions = defineType({
       },
     }),
     defineField({
+      type: 'image',
+      name: 'image',
+      options: {hotspot: true},
+    }),
+    defineField({
       type: 'array',
       name: 'Questions',
       of: [
